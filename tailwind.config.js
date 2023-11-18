@@ -22,11 +22,15 @@ export default {
 				"black50": "#252532",
 				"grey1": "#B0B0B2",
 				"grey2": "#D1D1D1",
-				"white": "#FFFFFF"
+				"white": "#FFFFFF",
+
+				"gradient-blue": "#0cbaf1",
+				"gradient-purple": "#e95ce9",
 			},
 
 			backgroundImage: {
-				"linear": "linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%)"
+				"linear": "linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%)",
+				'border-linear': "url('/public/svg/border-button.svg')",
 			},
 		},
 

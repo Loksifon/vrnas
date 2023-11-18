@@ -19,8 +19,14 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+
+		"types": ["node"],
+		"paths": {
+			"@/*": ["./src/*"]
+		},
   },
+
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
